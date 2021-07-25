@@ -44,8 +44,6 @@ type Extrinsic @entity {
 
   args: String
 
-  nonce: BigInt
-
   timestamp: Date
 
   signature: String
