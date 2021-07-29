@@ -4,7 +4,7 @@ repository: https://github.com/swarmbit/subql-dex
 schema: ./schema.graphql
 network:
   endpoint: 'wss://karura.api.onfinality.io/public-ws'
-  dictionary: "https://api.subquery.network/sq/brettkolodny/karura-dictionary"
+  dictionary: "https://api.subquery.network/sq/AcalaNetwork/karura-dictionary"
   types: {
      "CallOf": "Call",
     "DispatchTime": {
@@ -365,7 +365,7 @@ network:
 dataSources:
   - name: main
     kind: substrate/Runtime
-    startBlock: 194000
+    startBlock: 170000
     mapping:
       handlers:
         - handler: handleBlock
